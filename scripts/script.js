@@ -17,7 +17,7 @@
         e.preventDefault()
         localStorage.removeItem("nome")
         textField.value = ""
-        console.log(localStorage.getItem("nome"))
+        console.log(localStorage.getItem("nome")) 
       })
 
       //Se c'è qualcosa nel local storage, riempio tutto
